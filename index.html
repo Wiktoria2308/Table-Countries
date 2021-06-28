@@ -15,13 +15,7 @@
       <hr width="40%" style="margin-bottom: 3em" />
 
       <div style="text-align: center">
-        <input
-          type="text"
-          id="search"
-          onkeyup="searchTable()"
-          placeholder="Search..."
-          title="Type in a name"
-        />
+        <input type="button" value="Show statistics" onclick="openPage()" id="statistic" />
       </div>
       <hr width="70%" />
       <div id="min-max-population">
@@ -71,10 +65,18 @@
           <input type="reset" value="Reset" id="button" onclick="reset()" />
         </div>
       </div>
-      <hr width="70%" />
+     
 
+     
+      <hr width="70%" />
       <div style="text-align: center">
-        <input type="button" value="Show statistics" onclick="openPage()" id="statistic" />
+        <input
+          type="text"
+          id="search"
+          onkeyup="searchTable()"
+          placeholder="Search..."
+          title="Type in a name"
+        />
       </div>
     </div>
 
