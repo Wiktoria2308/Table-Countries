@@ -26,7 +26,7 @@ function loadCountries() {
           cell.appendChild(cellText);
           row.appendChild(cell);
         }
-        let image = `<img src='${data[i].flag}' id="flag"/>`;
+        let image = `<img src='${data[i].flag}' width="50px" height="auto" alt="flag"/>`;
         let cell2 = document.createElement('td');
 
         cell2.innerHTML = image;
