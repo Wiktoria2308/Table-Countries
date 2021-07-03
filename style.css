@@ -83,7 +83,7 @@ th span {
   width: 8em;
 }
 
-#button {
+#buttonReset, #buttonSubmit {
   background-color: white;
   color: #242582;
   font-size: 18px;
@@ -98,7 +98,7 @@ th span {
   cursor: pointer;
 }
 
-#button:hover {
+#buttonReset:hover, #buttonSubmit:hover {
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
   left: 0;
