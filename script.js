@@ -242,13 +242,7 @@ function searchPopulation() {
  * method resets searching and showing all data again
  */
 function reset() {
-  let minInput = document.getElementById('quantity');
-  let maxInput = document.getElementById('quantity2');
-  minInput.value = '';
-  maxInput.value = '';
-  maxInput.disabled = true;
-
-  loadCountries();
+  location.reload();
 }
 
 /**
