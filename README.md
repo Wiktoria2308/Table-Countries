@@ -8,10 +8,12 @@ https://wiktoria2308.github.io/Table-Countries/
 
 
 Intro
+
 For this task we will use free API that offers the list of countries: https://restcountries.eu/#api-endpoints-all
 You can find there the documentation along with available HTTP endpoints and sample responses.
 
 Functionalities
+
 The goal is to write an application that will communicate with this API and have following functionalities:
 
 
